@@ -1,0 +1,15 @@
+# 実行ファイル (Windows/Mac/Linux)
+*.exe
+todo_app
+debug
+
+# データベース本体（個人データやテストデータ）
+*.db
+*.sqlite3
+
+# 設定ファイル（パスワード等を含むため）
+config.ini
+
+# OS生成のキャッシュファイル
+.DS_Store
+Thumbs.db

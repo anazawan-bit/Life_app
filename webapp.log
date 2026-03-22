@@ -1,0 +1,1130 @@
+2026/03/14 14:51:46 main.go:15: test
+2026/03/14 15:05:18 base.go:22: sql: unknown driver "sqlite3" (forgotten import?)
+2026/03/15 11:52:33 users.go:33: Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub
+2026/03/15 11:55:53 base.go:25: sql: unknown driver "sqlite" (forgotten import?)
+2026/03/15 12:02:01 base.go:26: sql: unknown driver "sqlite" (forgotten import?)
+2026/03/15 17:12:08 users.go:77: SQL logic error: near "from": syntax error (1)
+2026/03/21 09:54:00 server.go:3650: http: panic serving 127.0.0.1:50853: template: layout.html:19: unexpected EOF
+goroutine 18 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfab100b0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfab220f0}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfaa7dab8?, 0x2000000000000?, 0x276e5a71fe8?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfab220f0?}, 0x235dfaa7db30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfab220f0?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfab220f0}, 0x235dfab1c000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfab12000?}, {0x7ff74f68b270?, 0x235dfab220f0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfac241b0, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:01 server.go:3650: http: panic serving 127.0.0.1:57212: template: layout.html:19: unexpected EOF
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfab10180?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfab222d0}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfac59ab8?, 0x2000000000000?, 0x276e5a71fe8?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfab222d0?}, 0x235dfac59b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfab222d0?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfab222d0}, 0x235dfac50000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfac1e240?}, {0x7ff74f68b270?, 0x235dfab222d0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfab9e120, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:01 server.go:3650: http: panic serving 127.0.0.1:65299: template: layout.html:19: unexpected EOF
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfab10240?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfab224b0}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfac55ab8?, 0x2000000000000?, 0x276e5a71fe8?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfab224b0?}, 0x235dfac55b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfab224b0?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfab224b0}, 0x235dfacac000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfaca6000?}, {0x7ff74f68b270?, 0x235dfab224b0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfac242d0, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:01 server.go:3650: http: panic serving 127.0.0.1:61342: template: layout.html:19: unexpected EOF
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfaa78390?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfabb0000}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfac59ab8?, 0x2000000000000?, 0x276e07cadb0?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfabb0000?}, 0x235dfac59b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfabb0000?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfabb0000}, 0x235dfab8a640)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfaa84280?}, {0x7ff74f68b270?, 0x235dfabb0000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfab201b0, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:05 server.go:3650: http: panic serving 127.0.0.1:64779: template: layout.html:19: unexpected EOF
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfab10310?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfab22690}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfac55ab8?, 0x2000000000000?, 0x276e5a71fe8?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfab22690?}, 0x235dfac55b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfab22690?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfab22690}, 0x235dfab1c140)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfab12480?}, {0x7ff74f68b270?, 0x235dfab22690?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfab9e240, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:19 server.go:3650: http: panic serving 127.0.0.1:54720: template: layout.html:19: unexpected EOF
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfab103e0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfab22870}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfacb5ab8?, 0x2000000000000?, 0x276e5a71fe8?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfab22870?}, 0x235dfacb5b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfab22870?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfab22870}, 0x235dfacac140)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfaca6140?}, {0x7ff74f68b270?, 0x235dfab22870?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfab202d0, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:19 server.go:3650: http: panic serving 127.0.0.1:65393: template: layout.html:19: unexpected EOF
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfab104a0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfab22a50}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfac55ab8?, 0x2000000000000?, 0x276e5a71fe8?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfab22a50?}, 0x235dfac55b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfab22a50?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfab22a50}, 0x235dfab1c280)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfab12600?}, {0x7ff74f68b270?, 0x235dfab22a50?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfacbc000, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:19 server.go:3650: http: panic serving 127.0.0.1:62013: template: layout.html:19: unexpected EOF
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfab10570?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfab22c30}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfacb5ab8?, 0x2000000000000?, 0x276e5a71fe8?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfab22c30?}, 0x235dfacb5b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfab22c30?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfab22c30}, 0x235dfab1c3c0)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfab12880?}, {0x7ff74f68b270?, 0x235dfab22c30?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfacbc090, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:24 server.go:3650: http: panic serving 127.0.0.1:54263: template: layout.html:19: unexpected EOF
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfaca40c0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfacc60f0}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfacb5ab8?, 0x2000000000000?, 0x276e5b34458?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfacc60f0?}, 0x235dfacb5b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfacc60f0?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfacc60f0}, 0x235dfab1c500)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfab12a00?}, {0x7ff74f68b270?, 0x235dfacc60f0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfacbc120, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:28 server.go:3650: http: panic serving 127.0.0.1:62189: template: layout.html:19: unexpected EOF
+goroutine 43 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfac2a1d0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfac321e0}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfac59ab8?, 0x2000000000000?, 0x276e5b31118?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfac321e0?}, 0x235dfac59b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfac321e0?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfac321e0}, 0x235dfab8a780)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfaa84440?}, {0x7ff74f68b270?, 0x235dfac321e0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfab20510, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 09:54:28 server.go:3650: http: panic serving 127.0.0.1:49670: template: layout.html:19: unexpected EOF
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff74f5c7100?, 0x235dfaca4190?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff74f68b270, 0x235dfacc62d0}, {0x7ff74f5aa5e0, 0x7ff74f684aa0}, {0x235dfacb5ab8?, 0x2000000000000?, 0x276e5b34458?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.top({0x7ff74f68b270?, 0x235dfacc62d0?}, 0x235dfacb5b30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:13 +0x65
+net/http.HandlerFunc.ServeHTTP(0x7ff74fb84ec0?, {0x7ff74f68b270?, 0x235dfacc62d0?}, 0x7ff74f2759b6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff74f030ab9?, {0x7ff74f68b270, 0x235dfacc62d0}, 0x235dfacac280)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x235dfaca6340?}, {0x7ff74f68b270?, 0x235dfacc62d0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x235dfac243f0, {0x7ff74f68bc58, 0x235dfac06720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 22:25:37 server.go:3650: http: panic serving 127.0.0.1:52047: open app/views/templates/public_navver.html: The system cannot find the file specified.
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff768305580?, 0x100f83342120?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7683adcb0, 0x100f833282d0}, {0x0, 0x0}, {0x100f832cdaa8?, 0x7ff767dd2e69?, 0x28052f54e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.login({0x7ff7683adcb0?, 0x100f833282d0?}, 0x100f832cdb30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_auth.go:31 +0x71
+net/http.HandlerFunc.ServeHTTP(0x7ff7688aaf20?, {0x7ff7683adcb0?, 0x100f833282d0?}, 0x7ff767f95c36?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff767d50ab9?, {0x7ff7683adcb0, 0x100f833282d0}, 0x100f83318280)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x100f832d4080?}, {0x7ff7683adcb0?, 0x100f833282d0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x100f8349e1b0, {0x7ff7683ae698, 0x100f83492720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 22:25:37 server.go:3650: http: panic serving 127.0.0.1:51000: open app/views/templates/public_navver.html: The system cannot find the file specified.
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff768305580?, 0x100f83434330?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7683adcb0, 0x100f834302d0}, {0x0, 0x0}, {0x100f8342faa8?, 0x7ff767dd2e69?, 0x28052f54c00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.login({0x7ff7683adcb0?, 0x100f834302d0?}, 0x100f8342fb30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_auth.go:31 +0x71
+net/http.HandlerFunc.ServeHTTP(0x7ff7688aaf20?, {0x7ff7683adcb0?, 0x100f834302d0?}, 0x7ff767f95c36?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff767d50ab9?, {0x7ff7683adcb0, 0x100f834302d0}, 0x100f833f2640)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x100f833d8240?}, {0x7ff7683adcb0?, 0x100f834302d0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x100f8349e2d0, {0x7ff7683ae698, 0x100f83492720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 22:25:37 server.go:3650: http: panic serving 127.0.0.1:56223: open app/views/templates/public_navver.html: The system cannot find the file specified.
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff768305580?, 0x100f83342600?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7683adcb0, 0x100f833285a0}, {0x0, 0x0}, {0x100f8342faa8?, 0x7ff767dd2e69?, 0x28052f54c00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.login({0x7ff7683adcb0?, 0x100f833285a0?}, 0x100f8342fb30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_auth.go:31 +0x71
+net/http.HandlerFunc.ServeHTTP(0x7ff7688aaf20?, {0x7ff7683adcb0?, 0x100f833285a0?}, 0x7ff767f95c36?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff767d50ab9?, {0x7ff7683adcb0, 0x100f833285a0}, 0x100f833183c0)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x100f832d4c80?}, {0x7ff7683adcb0?, 0x100f833285a0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x100f8340a2d0, {0x7ff7683ae698, 0x100f83492720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 22:25:38 server.go:3650: http: panic serving 127.0.0.1:57352: open app/views/templates/public_navver.html: The system cannot find the file specified.
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff768305580?, 0x100f83342b10?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7683adcb0, 0x100f83328780}, {0x0, 0x0}, {0x100f8342baa8?, 0x7ff767dd2e69?, 0x28052f54c00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.login({0x7ff7683adcb0?, 0x100f83328780?}, 0x100f8342bb30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_auth.go:31 +0x71
+net/http.HandlerFunc.ServeHTTP(0x7ff7688aaf20?, {0x7ff7683adcb0?, 0x100f83328780?}, 0x7ff767f95c36?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff767d50ab9?, {0x7ff7683adcb0, 0x100f83328780}, 0x100f834be000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x100f83498200?}, {0x7ff7683adcb0?, 0x100f83328780?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x100f8331a360, {0x7ff7683ae698, 0x100f83492720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 22:25:43 server.go:3650: http: panic serving 127.0.0.1:50129: open app/views/templates/public_navver.html: The system cannot find the file specified.
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff768305580?, 0x100f83342fc0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7683adcb0, 0x100f83328960}, {0x0, 0x0}, {0x100f8342faa8?, 0x7ff767dd2e69?, 0x28052f54e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.login({0x7ff7683adcb0?, 0x100f83328960?}, 0x100f8342fb30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_auth.go:31 +0x71
+net/http.HandlerFunc.ServeHTTP(0x7ff7688aaf20?, {0x7ff7683adcb0?, 0x100f83328960?}, 0x7ff767f95c36?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff767d50ab9?, {0x7ff7683adcb0, 0x100f83328960}, 0x100f83318500)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x100f832d4f00?}, {0x7ff7683adcb0?, 0x100f83328960?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x100f8349e360, {0x7ff7683ae698, 0x100f83492720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 22:25:43 server.go:3650: http: panic serving 127.0.0.1:50129: open app/views/templates/public_navver.html: The system cannot find the file specified.
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff768305580?, 0x100f83343530?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7683adcb0, 0x100f83328b40}, {0x0, 0x0}, {0x100f8342faa8?, 0x7ff767dd2e69?, 0x28052f54e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.login({0x7ff7683adcb0?, 0x100f83328b40?}, 0x100f8342fb30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_auth.go:31 +0x71
+net/http.HandlerFunc.ServeHTTP(0x7ff7688aaf20?, {0x7ff7683adcb0?, 0x100f83328b40?}, 0x7ff767f95c36?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff767d50ab9?, {0x7ff7683adcb0, 0x100f83328b40}, 0x100f83318640)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x100f832d5380?}, {0x7ff7683adcb0?, 0x100f83328b40?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x100f8331a510, {0x7ff7683ae698, 0x100f83492720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 22:26:13 server.go:3650: http: panic serving 127.0.0.1:54886: open app/views/templates/public_navver.html: The system cannot find the file specified.
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff768305580?, 0x100f83492db0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7683adcb0, 0x100f834ac3c0}, {0x0, 0x0}, {0x100f832cdaa8?, 0x7ff767dd2e69?, 0x28052f54c00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.login({0x7ff7683adcb0?, 0x100f834ac3c0?}, 0x100f832cdb30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_auth.go:31 +0x71
+net/http.HandlerFunc.ServeHTTP(0x7ff7688aaf20?, {0x7ff7683adcb0?, 0x100f834ac3c0?}, 0x7ff767f95c36?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff767d50ab9?, {0x7ff7683adcb0, 0x100f834ac3c0}, 0x100f833f2a00)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x100f833d85c0?}, {0x7ff7683adcb0?, 0x100f834ac3c0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x100f8349e3f0, {0x7ff7683ae698, 0x100f83492720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/21 22:26:13 server.go:3650: http: panic serving 127.0.0.1:64164: open app/views/templates/public_navver.html: The system cannot find the file specified.
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff768305580?, 0x100f8358a480?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7683adcb0, 0x100f835b6000}, {0x0, 0x0}, {0x100f8359baa8?, 0x7ff767dd2e69?, 0x28052f54c00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:15 +0x2d5
+todo_app/app/controllers.login({0x7ff7683adcb0?, 0x100f835b6000?}, 0x100f8359bb30?)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_auth.go:31 +0x71
+net/http.HandlerFunc.ServeHTTP(0x7ff7688aaf20?, {0x7ff7683adcb0?, 0x100f835b6000?}, 0x7ff767f95c36?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff767d50ab9?, {0x7ff7683adcb0, 0x100f835b6000}, 0x100f83592000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x100f83590000?}, {0x7ff7683adcb0?, 0x100f835b6000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x100f8349e510, {0x7ff7683ae698, 0x100f83492720})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 09:56:17 server.go:3650: http: panic serving 127.0.0.1:53885: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 4 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff62f0a76a0?, 0x1cadd4db3830?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff62f1502b0, 0x1cadd4d8c780}, {0x7ff62f0ffdc0, 0x1cadd4d8ab40}, {0x1cadd4d37aa8?, 0x7ff62eb72e69?, 0x22fd34c7a00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff62f1502b0, 0x1cadd4d8c780}, 0x1cadd4d8ab40)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff62f64df20?, {0x7ff62f1502b0?, 0x1cadd4d8c780?}, 0x7ff62ed35d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff62eaf0ab9?, {0x7ff62f1502b0, 0x1cadd4d8c780}, 0x1cadd4d8ab40)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x1cadd4bcc080?}, {0x7ff62f1502b0?, 0x1cadd4d8c780?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x1cadd4d80090, {0x7ff62f150c98, 0x1cadd4d263f0})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 09:56:17 server.go:3650: http: panic serving 127.0.0.1:61473: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff62f0a76a0?, 0x1cadd4e85a40?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff62f1502b0, 0x1cadd4ea24b0}, {0x7ff62f0ffdc0, 0x1cadd4e863c0}, {0x1cadd4bc5aa8?, 0x7ff62eb72e69?, 0x22fd34c7e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff62f1502b0, 0x1cadd4ea24b0}, 0x1cadd4e863c0)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff62f64df20?, {0x7ff62f1502b0?, 0x1cadd4ea24b0?}, 0x7ff62ed35d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff62eaf0ab9?, {0x7ff62f1502b0, 0x1cadd4ea24b0}, 0x1cadd4e863c0)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x1cadd4c16040?}, {0x7ff62f1502b0?, 0x1cadd4ea24b0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x1cadd4d082d0, {0x7ff62f150c98, 0x1cadd4d263f0})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 09:56:17 server.go:3650: http: panic serving 127.0.0.1:64528: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 3 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff62f0a76a0?, 0x1cadd4e85b60?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff62f1502b0, 0x1cadd4ea2690}, {0x7ff62f0ffdc0, 0x1cadd4e86500}, {0x1cadd4d3baa8?, 0x7ff62eb72e69?, 0x22fd34c7c00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff62f1502b0, 0x1cadd4ea2690}, 0x1cadd4e86500)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff62f64df20?, {0x7ff62f1502b0?, 0x1cadd4ea2690?}, 0x7ff62ed35d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff62eaf0ab9?, {0x7ff62f1502b0, 0x1cadd4ea2690}, 0x1cadd4e86500)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x1cadd4cd4400?}, {0x7ff62f1502b0?, 0x1cadd4ea2690?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x1cadd4d80000, {0x7ff62f150c98, 0x1cadd4d263f0})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 09:56:17 server.go:3650: http: panic serving 127.0.0.1:55961: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff62f0a76a0?, 0x1cadd4db39e0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff62f1502b0, 0x1cadd4d8c960}, {0x7ff62f0ffdc0, 0x1cadd4e86640}, {0x1cadd4bc5aa8?, 0x7ff62eb72e69?, 0x22fd34c7c00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff62f1502b0, 0x1cadd4d8c960}, 0x1cadd4e86640)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff62f64df20?, {0x7ff62f1502b0?, 0x1cadd4d8c960?}, 0x7ff62ed35d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff62eaf0ab9?, {0x7ff62f1502b0, 0x1cadd4d8c960}, 0x1cadd4e86640)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x1cadd4ea6940?}, {0x7ff62f1502b0?, 0x1cadd4d8c960?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x1cadd4d80750, {0x7ff62f150c98, 0x1cadd4d263f0})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 09:56:18 server.go:3650: http: panic serving 127.0.0.1:58889: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff62f0a76a0?, 0x1cadd4db3b00?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff62f1502b0, 0x1cadd4d8cb40}, {0x7ff62f0ffdc0, 0x1cadd4d8ac80}, {0x1cadd4d3baa8?, 0x7ff62eb72e69?, 0x22fd34c7c00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff62f1502b0, 0x1cadd4d8cb40}, 0x1cadd4d8ac80)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff62f64df20?, {0x7ff62f1502b0?, 0x1cadd4d8cb40?}, 0x7ff62ed35d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff62eaf0ab9?, {0x7ff62f1502b0, 0x1cadd4d8cb40}, 0x1cadd4d8ac80)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x1cadd4bcd400?}, {0x7ff62f1502b0?, 0x1cadd4d8cb40?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x1cadd4c2e6c0, {0x7ff62f150c98, 0x1cadd4d263f0})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 09:56:23 server.go:3650: http: panic serving 127.0.0.1:49669: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff62f0a76a0?, 0x1cadd4f013e0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff62f1502b0, 0x1cadd4c30a50}, {0x7ff62f0ffdc0, 0x1cadd4c2ac80}, {0x1cadd4bc5aa8?, 0x7ff62eb72e69?, 0x22fd34c7e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff62f1502b0, 0x1cadd4c30a50}, 0x1cadd4c2ac80)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff62f64df20?, {0x7ff62f1502b0?, 0x1cadd4c30a50?}, 0x7ff62ed35d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff62eaf0ab9?, {0x7ff62f1502b0, 0x1cadd4c30a50}, 0x1cadd4c2ac80)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x1cadd4c17b00?}, {0x7ff62f1502b0?, 0x1cadd4c30a50?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x1cadd4e8a360, {0x7ff62f150c98, 0x1cadd4d263f0})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 09:56:23 server.go:3650: http: panic serving 127.0.0.1:49287: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff62f0a76a0?, 0x1cadd4e85ce0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff62f1502b0, 0x1cadd4ea2870}, {0x7ff62f0ffdc0, 0x1cadd4c2adc0}, {0x1cadd4bc5aa8?, 0x7ff62eb72e69?, 0x22fd34c7e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff62f1502b0, 0x1cadd4ea2870}, 0x1cadd4c2adc0)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff62f64df20?, {0x7ff62f1502b0?, 0x1cadd4ea2870?}, 0x7ff62ed35d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff62eaf0ab9?, {0x7ff62f1502b0, 0x1cadd4ea2870}, 0x1cadd4c2adc0)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x1cadd4c17bc0?}, {0x7ff62f1502b0?, 0x1cadd4ea2870?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x1cadd4c2e7e0, {0x7ff62f150c98, 0x1cadd4d263f0})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 09:56:58 server.go:3650: http: panic serving 127.0.0.1:61675: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff62f0a76a0?, 0x1cadd4e85e00?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff62f1502b0, 0x1cadd4ea2a50}, {0x7ff62f0ffdc0, 0x1cadd4e86780}, {0x1cadd4d37aa8?, 0x7ff62eb72e69?, 0x22fd34c7e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff62f1502b0, 0x1cadd4ea2a50}, 0x1cadd4e86780)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff62f64df20?, {0x7ff62f1502b0?, 0x1cadd4ea2a50?}, 0x7ff62ed35d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff62eaf0ab9?, {0x7ff62f1502b0, 0x1cadd4ea2a50}, 0x1cadd4e86780)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x1cadd4ea6a80?}, {0x7ff62f1502b0?, 0x1cadd4ea2a50?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x1cadd4c2e870, {0x7ff62f150c98, 0x1cadd4d263f0})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:24 server.go:3650: http: panic serving 127.0.0.1:51494: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34536000?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34634000}, {0x7ff6e93efe00, 0x14cd34612000}, {0x14cd3446daa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34634000}, 0x14cd34612000)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34634000?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34634000}, 0x14cd34612000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34608000?}, {0x7ff6e9440330?, 0x14cd34634000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e2d0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:31 server.go:3650: http: panic serving 127.0.0.1:50664: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34536270?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd345483c0}, {0x7ff6e93efe00, 0x14cd34688140}, {0x14cd345bbaa8?, 0x7ff6e8e62e69?, 0x244d5201e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd345483c0}, 0x14cd34688140)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd345483c0?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd345483c0}, 0x14cd34688140)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd344744c0?}, {0x7ff6e9440330?, 0x14cd345483c0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd34618090, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:31 server.go:3650: http: panic serving 127.0.0.1:49282: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34536390?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34548690}, {0x7ff6e93efe00, 0x14cd34688000}, {0x14cd3446daa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34548690}, 0x14cd34688000)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34548690?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34548690}, 0x14cd34688000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd345180c0?}, {0x7ff6e9440330?, 0x14cd34548690?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e3f0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:31 server.go:3650: http: panic serving 127.0.0.1:62123: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34536510?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34548960}, {0x7ff6e93efe00, 0x14cd34688280}, {0x14cd3446daa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34548960}, 0x14cd34688280)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34548960?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34548960}, 0x14cd34688280)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34518200?}, {0x7ff6e9440330?, 0x14cd34548960?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e480, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:32 server.go:3650: http: panic serving 127.0.0.1:53449: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd347040f0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34726000}, {0x7ff6e93efe00, 0x14cd3470a000}, {0x14cd345b7aa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34726000}, 0x14cd3470a000)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34726000?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34726000}, 0x14cd3470a000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34700040?}, {0x7ff6e9440330?, 0x14cd34726000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3456a2d0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:35 server.go:3650: http: panic serving 127.0.0.1:49669: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd3459e6f0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd345a4690}, {0x7ff6e93efe00, 0x14cd344fa780}, {0x14cd3446daa8?, 0x7ff6e8e62e69?, 0x244d5201e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd345a4690}, 0x14cd344fa780)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd345a4690?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd345a4690}, 0x14cd344fa780)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34518300?}, {0x7ff6e9440330?, 0x14cd345a4690?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e510, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:35 server.go:3650: http: panic serving 127.0.0.1:50128: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd3459e810?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd345a4870}, {0x7ff6e93efe00, 0x14cd344fa8c0}, {0x14cd345e5aa8?, 0x7ff6e8e62e69?, 0x244d5201e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd345a4870}, 0x14cd344fa8c0)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd345a4870?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd345a4870}, 0x14cd344fa8c0)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34474680?}, {0x7ff6e9440330?, 0x14cd345a4870?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3470e1b0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:35 server.go:3650: http: panic serving 127.0.0.1:50292: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 53 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd345367b0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34548e10}, {0x7ff6e93efe00, 0x14cd34688640}, {0x14cd3446daa8?, 0x7ff6e8e62e69?, 0x244d5201e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34548e10}, 0x14cd34688640)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34548e10?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34548e10}, 0x14cd34688640)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34474780?}, {0x7ff6e9440330?, 0x14cd34548e10?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3470e240, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:35 server.go:3650: http: panic serving 127.0.0.1:56679: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd345368a0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd345490e0}, {0x7ff6e93efe00, 0x14cd34688500}, {0x14cd345bbaa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd345490e0}, 0x14cd34688500)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd345490e0?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd345490e0}, 0x14cd34688500)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34518400?}, {0x7ff6e9440330?, 0x14cd345490e0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e6c0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:35 server.go:3650: http: panic serving 127.0.0.1:62085: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 54 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd345369c0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd345493b0}, {0x7ff6e93efe00, 0x14cd34688780}, {0x14cd345bbaa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd345493b0}, 0x14cd34688780)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd345493b0?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd345493b0}, 0x14cd34688780)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34518580?}, {0x7ff6e9440330?, 0x14cd345493b0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3470e2d0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:36 server.go:3650: http: panic serving 127.0.0.1:62548: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 16 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34536ae0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34549590}, {0x7ff6e93efe00, 0x14cd346888c0}, {0x14cd3446daa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34549590}, 0x14cd346888c0)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34549590?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34549590}, 0x14cd346888c0)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34518680?}, {0x7ff6e9440330?, 0x14cd34549590?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e750, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:43 server.go:3650: http: panic serving 127.0.0.1:62642: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 66 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34536ba0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34549770}, {0x7ff6e93efe00, 0x14cd34688a00}, {0x14cd345e5aa8?, 0x7ff6e8e62e69?, 0x244d5201e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34549770}, 0x14cd34688a00)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34549770?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34549770}, 0x14cd34688a00)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34700200?}, {0x7ff6e9440330?, 0x14cd34549770?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e7e0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:43 server.go:3650: http: panic serving 127.0.0.1:64938: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 45 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd3459eab0?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd345a4a50}, {0x7ff6e93efe00, 0x14cd344fab40}, {0x14cd345bbaa8?, 0x7ff6e8e62e69?, 0x244d5201e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd345a4a50}, 0x14cd344fab40)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd345a4a50?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd345a4a50}, 0x14cd344fab40)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34474880?}, {0x7ff6e9440330?, 0x14cd345a4a50?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3456a750, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:43 server.go:3650: http: panic serving 127.0.0.1:57439: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34704720?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34726690}, {0x7ff6e93efe00, 0x14cd3470a500}, {0x14cd3446daa8?, 0x7ff6e8e62e69?, 0x244d5201e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34726690}, 0x14cd3470a500)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34726690?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34726690}, 0x14cd3470a500)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd347002c0?}, {0x7ff6e9440330?, 0x14cd34726690?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e900, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:43 server.go:3650: http: panic serving 127.0.0.1:62669: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 46 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34704810?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34726960}, {0x7ff6e93efe00, 0x14cd3470a3c0}, {0x14cd345b7aa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34726960}, 0x14cd3470a3c0)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34726960?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34726960}, 0x14cd3470a3c0)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34700380?}, {0x7ff6e9440330?, 0x14cd34726960?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3456a7e0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:43 server.go:3650: http: panic serving 127.0.0.1:60585: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 59 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34704960?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34726c30}, {0x7ff6e93efe00, 0x14cd344fac80}, {0x14cd345bbaa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34726c30}, 0x14cd344fac80)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34726c30?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34726c30}, 0x14cd344fac80)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34474980?}, {0x7ff6e9440330?, 0x14cd34726c30?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3470e6c0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:44 server.go:3650: http: panic serving 127.0.0.1:53964: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 61 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34536d80?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34549950}, {0x7ff6e93efe00, 0x14cd34688b40}, {0x14cd345e5aa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34549950}, 0x14cd34688b40)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34549950?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34549950}, 0x14cd34688b40)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34518800?}, {0x7ff6e9440330?, 0x14cd34549950?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3470e7e0, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:49 server.go:3650: http: panic serving 127.0.0.1:62850: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 69 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34602330?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd346340f0}, {0x7ff6e93efe00, 0x14cd3470a640}, {0x14cd345bbaa8?, 0x7ff6e8e62e69?, 0x244d5201e00?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd346340f0}, 0x14cd3470a640)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd346340f0?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd346340f0}, 0x14cd3470a640)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34700580?}, {0x7ff6e9440330?, 0x14cd346340f0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3458e990, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:49 server.go:3650: http: panic serving 127.0.0.1:54512: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 48 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34602450?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd346342d0}, {0x7ff6e93efe00, 0x14cd34612140}, {0x14cd345b7aa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd346342d0}, 0x14cd34612140)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd346342d0?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd346342d0}, 0x14cd34612140)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34608180?}, {0x7ff6e9440330?, 0x14cd346342d0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3456a900, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 10:09:49 server.go:3650: http: panic serving 127.0.0.1:54830: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 62 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff6e93976e0?, 0x14cd34704b40?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff6e9440330, 0x14cd34726e10}, {0x7ff6e93efe00, 0x14cd34612280}, {0x14cd345bbaa8?, 0x7ff6e8e62e69?, 0x244d5202000?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.index({0x7ff6e9440330, 0x14cd34726e10}, 0x14cd34612280)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:26 +0xd0
+net/http.HandlerFunc.ServeHTTP(0x7ff6e993ef20?, {0x7ff6e9440330?, 0x14cd34726e10?}, 0x7ff6e9025d96?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e8de0ab9?, {0x7ff6e9440330, 0x14cd34726e10}, 0x14cd34612280)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x14cd34608300?}, {0x7ff6e9440330?, 0x14cd34726e10?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x14cd3470e870, {0x7ff6e9440d18, 0x14cd3459e420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 11:31:08 route_auth.go:48: sql: no rows in result set
+2026/03/22 11:31:08 server.go:3650: http: superfluous response.WriteHeader call from todo_app/app/controllers.authenticate (route_auth.go:67)
+2026/03/22 11:35:54 server.go:3650: http: panic serving 127.0.0.1:53352: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff7f4e08980?, 0x2d6cf7175680?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7f4eb1830, 0x2d6cf71d20f0}, {0x0, 0x0}, {0x2d6cf717faa8?, 0x7ff7f48d2e69?, 0x2237ff98400?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.todoNew({0x7ff7f4eb1830, 0x2d6cf71d20f0}, 0x2d6cf71c2280)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:42 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x7ff7f53aff20?, {0x7ff7f4eb1830?, 0x2d6cf71d20f0?}, 0x7ff7f4a95ef6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7f4850ab9?, {0x7ff7f4eb1830, 0x2d6cf71d20f0}, 0x2d6cf71c2280)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x2d6cf7216440?}, {0x7ff7f4eb1830?, 0x2d6cf71d20f0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x2d6cf72922d0, {0x7ff7f4eb2218, 0x2d6cf72b0420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 11:35:54 server.go:3650: http: panic serving 127.0.0.1:60239: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff7f4e08980?, 0x2d6cf7308150?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7f4eb1830, 0x2d6cf7330000}, {0x0, 0x0}, {0x2d6cf71c7aa8?, 0x7ff7f48d2e69?, 0x2237ff98400?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.todoNew({0x7ff7f4eb1830, 0x2d6cf7330000}, 0x2d6cf731a000)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:42 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x7ff7f53aff20?, {0x7ff7f4eb1830?, 0x2d6cf7330000?}, 0x7ff7f4a95ef6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7f4850ab9?, {0x7ff7f4eb1830, 0x2d6cf7330000}, 0x2d6cf731a000)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x2d6cf7300040?}, {0x7ff7f4eb1830?, 0x2d6cf7330000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x2d6cf71cc120, {0x7ff7f4eb2218, 0x2d6cf72b0420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 11:35:55 server.go:3650: http: panic serving 127.0.0.1:62038: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff7f4e08980?, 0x2d6cf72b1e00?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7f4eb1830, 0x2d6cf72b6960}, {0x0, 0x0}, {0x2d6cf71c7aa8?, 0x7ff7f48d2e69?, 0x2237ff98400?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.todoNew({0x7ff7f4eb1830, 0x2d6cf72b6960}, 0x2d6cf71c23c0)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:42 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x7ff7f53aff20?, {0x7ff7f4eb1830?, 0x2d6cf72b6960?}, 0x7ff7f4a95ef6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7f4850ab9?, {0x7ff7f4eb1830, 0x2d6cf72b6960}, 0x2d6cf71c23c0)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x2d6cf71867c0?}, {0x7ff7f4eb1830?, 0x2d6cf72b6960?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x2d6cf72926c0, {0x7ff7f4eb2218, 0x2d6cf72b0420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
+2026/03/22 11:35:55 server.go:3650: http: panic serving 127.0.0.1:62862: open app/views/templates/logout.html: The system cannot find the file specified.
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1907 +0xbd
+panic({0x7ff7f4e08980?, 0x2d6cf7400060?})
+	C:/Program Files/Go/src/runtime/panic.go:860 +0x13a
+html/template.Must(...)
+	C:/Program Files/Go/src/html/template/template.go:368
+todo_app/app/controllers.generateHTML({0x7ff7f4eb1830, 0x2d6cf72b6b40}, {0x0, 0x0}, {0x2d6cf71cbaa8?, 0x7ff7f48d2e69?, 0x2237ff98400?})
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/server.go:16 +0x2d5
+todo_app/app/controllers.todoNew({0x7ff7f4eb1830, 0x2d6cf72b6b40}, 0x2d6cf71c2500)
+	C:/Users/anaza/OneDrive/デスクトップ/portfolio/todo_app/app/controllers/route_main.go:42 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x7ff7f53aff20?, {0x7ff7f4eb1830?, 0x2d6cf72b6b40?}, 0x7ff7f4a95ef6?)
+	C:/Program Files/Go/src/net/http/server.go:2286 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7f4850ab9?, {0x7ff7f4eb1830, 0x2d6cf72b6b40}, 0x2d6cf71c2500)
+	C:/Program Files/Go/src/net/http/server.go:2828 +0x1c7
+net/http.serverHandler.ServeHTTP({0x2d6cf7186880?}, {0x7ff7f4eb1830?, 0x2d6cf72b6b40?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:3311 +0x8e
+net/http.(*conn).serve(0x2d6cf72927e0, {0x7ff7f4eb2218, 0x2d6cf72b0420})
+	C:/Program Files/Go/src/net/http/server.go:2073 +0x650
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3464 +0x485
